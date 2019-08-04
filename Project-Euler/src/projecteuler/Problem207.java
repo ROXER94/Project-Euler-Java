@@ -12,6 +12,7 @@ public class Problem207 {
 				break;
 			ans++;
 		}
-		System.out.println((long) (ans * (ans + 1)));
+		ans *= ans + 1;
+		System.out.println((long) ans);
 	}
 }
