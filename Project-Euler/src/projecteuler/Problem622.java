@@ -20,7 +20,7 @@ public class Problem622 {
 				Factors.add(i * j);
 		Factors.remove(0);
 		for (long n : Factors)
-			if (Functions.getMultiplicativeOrder(2, n) == 60)
+			if (Functions.getMultiplicativeOrder(2, n) == e)
 				ans += n + 1;
 		System.out.println(ans);
 	}
