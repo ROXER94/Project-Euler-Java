@@ -45,7 +45,7 @@ public class Problem581 {
 	 */
 	static void solution() {
 		BigInteger ans = BigInteger.ZERO;
-		List<Integer> primes = Functions.getPrimesList(48);// 48
+		List<Integer> primes = Functions.getPrimesList(48);
 		SortedSet<Long> squarefrees = Functions.getSquarefrees(1, 0, primes);
 		squarefrees.remove(2L);
 		for (long sqfree : squarefrees) {
